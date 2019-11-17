@@ -1,0 +1,21 @@
+{
+  "name": "elect-tray-hopefully",
+  "version": "1.0.0",
+  "description": "Hopefully puts something into the tray",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "electron index.js"
+  },
+  "keywords": [
+    "tray"
+  ],
+  "author": "Ben",
+  "license": "ISC",
+  "dependencies": {
+    "convert-svg-to-png": "^0.5.0",
+    "electron": "^7.1.1",
+    "node-fetch": "^2.6.0",
+    "weather-icons": "git+https://github.com/erikflowers/weather-icons.git"
+  }
+}
